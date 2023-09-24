@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=DynaPuff&family=Montserrat:wght@500&display=swap');
+
+body{
+  background-image: url("assets/1.jpg");
+  background-position: center -200px;
+  background-repeat: no-repeat;
+}
+
+.title{
+    position: relative;
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    font-weight: 700;
+}
+
+.p1 {
+    position: relative;
+    color: black;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+}
+
+form {
+  background-color: #b2b2b2;
+  padding-bottom: 30px;
+}
+  
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  background-color: #ff98ca;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span.psw1 {
+  float: left;
+  padding-top: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.login-form {
+  max-width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.login-form .btn{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: #ff98ca;
+}
+
+.login-form .content {
+  padding: 15px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding-top: 10px;
+}

@@ -1,0 +1,61 @@
+tr {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+.modalAdd {
+    margin: 50%;
+    background-color: red;
+}
+.modal{
+    color: black;
+    background-image:"1.png";
+    background-image: none;
+}
+.ul {
+    background: whitesmoke;
+    padding: 20px;
+}
+.ul li{
+    background: whitesmoke;
+    color: goldenrod;
+    margin: 100px;
+}
+.ul.demo{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    border-radius: 8px;
+}
+
+.logo {
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-custom a {
+    color: #fff !important;
+}
+
+.navbar-custom a.active {
+    color: #fff !important;
+}
+
+.content-web {
+    border: 1px #ccc;
+    padding: 25px;
+    border-radius: 8px;
+}
